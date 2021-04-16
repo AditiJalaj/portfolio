@@ -4,7 +4,7 @@ import Project from './content/Project'
 import Contact from './content/Contact'
 import About from './content/About'
 import List from './content/List'
-import pic from './pic.jpg'
+import me from './pic.jpg'
 
 const Routers=()=>{
     
@@ -12,7 +12,7 @@ const Routers=()=>{
         
         <BrowserRouter>
         <div className="routers">
-        <img className="pic" src={pic} alt="Picture "/>
+        <img className="pic" src={me} alt="me "/>
         
         <NavLink to='/'><List name="home"/></NavLink>
         <NavLink to='/about' ><List name="about me"/></NavLink>
